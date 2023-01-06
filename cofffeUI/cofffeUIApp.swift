@@ -11,7 +11,7 @@ import SwiftUI
 struct cofffeUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeScreen()
         }
     }
 }

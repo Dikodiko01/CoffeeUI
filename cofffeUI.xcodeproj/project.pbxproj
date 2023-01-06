@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F6ED1F3290666D800C866C1 /* DetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6ED1F2290666D800C866C1 /* DetailScreen.swift */; };
+		8F743DDD2905120A0091BB55 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F743DDC2905120A0091BB55 /* HomeScreen.swift */; };
+		8F85011729095420005A9AD0 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F85011629095420005A9AD0 /* Product.swift */; };
+		8F85011929095474005A9AD0 /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F85011829095474005A9AD0 /* ProductCard.swift */; };
+		8F85011C29097271005A9AD0 /* Content1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F85011B29097271005A9AD0 /* Content1View.swift */; };
+		8FF8FBFF290AD7F5007F11FA /* ScrollingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF8FBFE290AD7F5007F11FA /* ScrollingView.swift */; };
 		8FFFF3BF29042F2D00706CBA /* cofffeUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFFF3BE29042F2D00706CBA /* cofffeUIApp.swift */; };
 		8FFFF3C129042F2D00706CBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFFF3C029042F2D00706CBA /* ContentView.swift */; };
 		8FFFF3C329042F2E00706CBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FFFF3C229042F2E00706CBA /* Assets.xcassets */; };
@@ -14,6 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8F6ED1F2290666D800C866C1 /* DetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreen.swift; sourceTree = "<group>"; };
+		8F743DDC2905120A0091BB55 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		8F85011629095420005A9AD0 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		8F85011829095474005A9AD0 /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
+		8F85011B29097271005A9AD0 /* Content1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content1View.swift; sourceTree = "<group>"; };
+		8FF8FBFE290AD7F5007F11FA /* ScrollingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingView.swift; sourceTree = "<group>"; };
 		8FFFF3BB29042F2D00706CBA /* cofffeUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cofffeUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FFFF3BE29042F2D00706CBA /* cofffeUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cofffeUIApp.swift; sourceTree = "<group>"; };
 		8FFFF3C029042F2D00706CBA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +44,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F743DDB290511F30091BB55 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				8F743DDC2905120A0091BB55 /* HomeScreen.swift */,
+				8FFFF3C029042F2D00706CBA /* ContentView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		8F8501152909540B005A9AD0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8F85011629095420005A9AD0 /* Product.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8F85011A2909553F005A9AD0 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				8F85011829095474005A9AD0 /* ProductCard.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
 		8FFFF3B229042F2D00706CBA = {
 			isa = PBXGroup;
 			children = (
@@ -52,9 +89,14 @@
 			isa = PBXGroup;
 			children = (
 				8FFFF3BE29042F2D00706CBA /* cofffeUIApp.swift */,
-				8FFFF3C029042F2D00706CBA /* ContentView.swift */,
+				8F8501152909540B005A9AD0 /* Models */,
+				8F85011A2909553F005A9AD0 /* Component */,
+				8F743DDB290511F30091BB55 /* Screens */,
+				8F6ED1F2290666D800C866C1 /* DetailScreen.swift */,
 				8FFFF3C229042F2E00706CBA /* Assets.xcassets */,
 				8FFFF3C429042F2E00706CBA /* Preview Content */,
+				8F85011B29097271005A9AD0 /* Content1View.swift */,
+				8FF8FBFE290AD7F5007F11FA /* ScrollingView.swift */,
 			);
 			path = cofffeUI;
 			sourceTree = "<group>";
@@ -137,8 +179,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F6ED1F3290666D800C866C1 /* DetailScreen.swift in Sources */,
 				8FFFF3C129042F2D00706CBA /* ContentView.swift in Sources */,
+				8F85011729095420005A9AD0 /* Product.swift in Sources */,
 				8FFFF3BF29042F2D00706CBA /* cofffeUIApp.swift in Sources */,
+				8F743DDD2905120A0091BB55 /* HomeScreen.swift in Sources */,
+				8F85011929095474005A9AD0 /* ProductCard.swift in Sources */,
+				8FF8FBFF290AD7F5007F11FA /* ScrollingView.swift in Sources */,
+				8F85011C29097271005A9AD0 /* Content1View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
